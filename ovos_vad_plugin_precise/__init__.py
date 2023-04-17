@@ -11,9 +11,6 @@ class PreciseVAD(VADEngine):
         self.vad_threshold = self.config.get("threshold", 0.5)
         self.vad = Listener(model)
 
-    def reset(self):
-        self.vad.reset()
-
     def is_silence(self, chunk):
         # return True or False
         prob = self.vad.get_prediction(chunk)

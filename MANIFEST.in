@@ -1,0 +1,3 @@
+include requirements.txt
+include LICENSE.md
+recursive-include ovos_vad_plugin_precise/ *

@@ -60,7 +60,7 @@ setup(
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',
     packages=['ovos_vad_plugin_precise'],
-    package_data={'ovos_vad_plugin_precise': ['precise_vad.onnx']},
+    package_data={'ovos_vad_plugin_precise': ['vad.tflite']},
     install_requires=required("requirements.txt"),
     zip_safe=True,
     classifiers=[
