@@ -6,6 +6,24 @@ this initial version was trained on CommonVoice and some non-speech datasets I h
 
 a better dataset is being collected to train another model and will be documented
 
+# Training
+
+see scripts in ./training folder
+
+```
+# tested on train set + test set + many more non-speech samples
+# new model training in progress, old model tested in new dataset
+# === Counts ===
+# False Positives: 3973
+# True Negatives: 26933
+# False Negatives: 1997
+# True Positives: 146565
+#
+# === Summary ===
+# 173498 out of 179468
+# accuracy: 96.67350168275124
+```
+
 # Logs
 
 some quick logs taken with ovos-dinkum-listener, threshold can be tuned for your microphone
