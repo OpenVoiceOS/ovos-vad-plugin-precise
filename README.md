@@ -2,13 +2,15 @@
 
 a VAD plugin trained with [precise-lite-trainer](https://github.com/OpenVoiceOS/precise-lite-trainer)
 
-this initial version was trained on CommonVoice and some non-speech datasets I had available from training wake words.
-
-a better dataset is being collected to train another model and will be documented
 
 # Training
 
 see scripts in ./training folder
+
+this initial version was trained on CommonVoice and some non-speech datasets I had available from training wake words.
+
+a better dataset is being collected to train another model and will be documented
+
 
 ```
 # tested on train set + test set + many more non-speech samples
