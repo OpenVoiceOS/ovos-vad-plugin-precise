@@ -6,7 +6,7 @@ a VAD plugin trained with [precise-lite-trainer](https://github.com/OpenVoiceOS/
 
 see scripts in ./training folder
 
-`Data: <TrainData wake_words=87090 not_wake_words=26278 test_wake_words=62382 test_not_wake_words=17597>`
+`Data: <TrainData wake_words=87243 not_wake_words=26209 test_wake_words=62258 test_not_wake_words=17654>`
 
 datasets used:
 - https://www.kaggle.com/datasets/mozillaorg/common-voice
@@ -27,36 +27,34 @@ test set
 
 ```
 === Counts ===
-False Positives: 195
-True Negatives: 13352
-False Negatives: 3141
-True Positives: 58912
-
+False Positives: 512
+True Negatives: 13035
+False Negatives: 2512
+True Positives: 59541
 
 === Summary ===
-72264 out of 75600
-95.59%
+72576 out of 75600
+96.00%
 
-1.44% false positives
-5.06% false negatives
+3.78% false positives
+4.05% false negatives
 ```
 
 train set
 
 ```
 === Counts ===
-False Positives: 155
-True Negatives: 20169
-False Negatives: 4194
-True Positives: 82384
-
+False Positives: 533
+True Negatives: 19791
+False Negatives: 3372
+True Positives: 83206
 
 === Summary ===
-102553 out of 106902
-95.93%
+102997 out of 106902
+96.35%
 
-0.76% false positives
-4.84% false negatives
+2.62% false positives
+3.89% false negatives
 ```
 
 
