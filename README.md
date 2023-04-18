@@ -10,6 +10,7 @@ see scripts in ./training folder
 
 datasets used:
 - https://www.kaggle.com/datasets/mozillaorg/common-voice
+- https://www.kaggle.com/datasets/ogechukwu/voice
 - https://github.com/karolpiczak/ESC-50
 - https://urbansounddataset.weebly.com/urbansound8k.html
 - FSD50K (eval) - https://zenodo.org/record/4060432
