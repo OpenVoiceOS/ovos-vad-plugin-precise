@@ -1,5 +1,9 @@
 # Changelog
 
+## [V0.0.1a6](https://github.com/OpenVoiceOS/ovos-vad-plugin-precise/tree/V0.0.1a6) (2023-04-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-vad-plugin-precise/compare/V0.0.1a5...V0.0.1a6)
+
 ## [V0.0.1a5](https://github.com/OpenVoiceOS/ovos-vad-plugin-precise/tree/V0.0.1a5) (2023-04-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-vad-plugin-precise/compare/V0.0.1a4...V0.0.1a5)
