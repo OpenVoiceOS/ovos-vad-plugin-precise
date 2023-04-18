@@ -24,40 +24,74 @@ datasets used:
 - https://research.google.com/audioset/dataset/index.html (via https://github.com/Jeremias-V/audioset-processing/tree/fix-downloads)
 - some private wake word data
 
-test set
+
+test set (threshold of 0.5)
 
 ```
 === Counts ===
-False Positives: 512
-True Negatives: 13035
-False Negatives: 2512
-True Positives: 59541
+False Positives: 223
+True Negatives: 17430
+False Negatives: 6847
+True Positives: 55411
 
 === Summary ===
-72576 out of 75600
-96.00%
+72841 out of 79911
+91.15%
 
-3.78% false positives
-4.05% false negatives
+1.26% false positives
+11.00% false negatives
 ```
 
-train set
+test set (threshold of 0.3)
 
 ```
 === Counts ===
-False Positives: 533
-True Negatives: 19791
-False Negatives: 3372
-True Positives: 83206
+False Positives: 745
+True Negatives: 16908
+False Negatives: 3429
+True Positives: 58829
 
 === Summary ===
-102997 out of 106902
-96.35%
+75737 out of 79911
+94.78%
 
-2.62% false positives
-3.89% false negatives
+4.22% false positives
+5.51% false negatives
 ```
 
+train set (threshold of 0.5)
+
+```
+=== Counts ===
+False Positives: 164
+True Negatives: 26044
+False Negatives: 9424
+True Positives: 77819
+
+=== Summary ===
+103863 out of 113451
+91.55%
+
+0.63% false positives
+10.80% false negatives
+```
+
+train set (threshold of 0.3)
+
+```
+=== Counts ===
+False Positives: 932
+True Negatives: 25276
+False Negatives: 4467
+True Positives: 82776
+
+=== Summary ===
+108052 out of 113451
+95.24%
+
+3.56% false positives
+5.12% false negatives
+```
 
 # Logs
 
