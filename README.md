@@ -6,6 +6,8 @@ a VAD plugin trained with [precise-lite-trainer](https://github.com/OpenVoiceOS/
 
 see scripts in ./training folder
 
+`Data: <TrainData wake_words=87090 not_wake_words=26278 test_wake_words=62382 test_not_wake_words=17597>`
+
 datasets used:
 - https://www.kaggle.com/datasets/mozillaorg/common-voice
 - https://github.com/karolpiczak/ESC-50
@@ -18,55 +20,45 @@ datasets used:
 - https://github.com/OpenVoiceOS/ovos-ww-community-dataset
 - https://www.kaggle.com/datasets/aanhari/alexa-dataset
 - https://www.kaggle.com/datasets/mohamedhamadacs/khwarizmi-wake-word
+- https://research.google.com/audioset/dataset/index.html (via https://github.com/Jeremias-V/audioset-processing/tree/fix-downloads)
 - some private wake word data
 
+test set
 
-accuracy in test set
-```python
-# === Counts ===
-# False Positives: 336
-# True Negatives: 12070
-# False Negatives: 1656
-# True Positives: 60414
-#
-# === Summary ===
-# 72484 out of 74476
-# 97.33%
-#
-# 2.71% false positives
-# 2.67% false negatives
 ```
-accuracy in train set
-```python
-# === Counts ===
-# False Positives: 401
-# True Negatives: 18099
-# False Negatives: 2321
-# True Positives: 84171
-#
-#
-# === Summary ===
-# 102270 out of 104992
-# 97.41%
-#
-# 2.17% false positives
-# 2.68% false negatives
+=== Counts ===
+False Positives: 195
+True Negatives: 13352
+False Negatives: 3141
+True Positives: 58912
+
+
+=== Summary ===
+72264 out of 75600
+95.59%
+
+1.44% false positives
+5.06% false negatives
 ```
-accuracy in test + train sets
-```python
-#  === Counts ===
-# False Positives: 823
-# True Negatives: 29891
-# False Negatives: 3628
-# True Positives: 124980
-#
-# === Summary ===
-# 154871 out of 159322
-# 97.21%
-#
-# 2.68% false positives
-# 2.82% false negatives
+
+train set
+
 ```
+=== Counts ===
+False Positives: 155
+True Negatives: 20169
+False Negatives: 4194
+True Positives: 82384
+
+
+=== Summary ===
+102553 out of 106902
+95.93%
+
+0.76% false positives
+4.84% false negatives
+```
+
 
 # Logs
 
